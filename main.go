@@ -21,7 +21,7 @@ var (
 		"(Optional) language code used in download, can also pass by env var SUB_LANG. Default is Chinese Simplified")
 	vidLang = flag.String(
 		"vidl",
-		envOrDefault("VIDEO_LANG", "chi.简体中文"),
+		envOrDefault("VIDEO_LANG", "简体中文.chi"),
 		"(Optional) language code used in rename, can also pass by env var VIDEO_LANG. Default is Chinese Simplified")
 )
 
