@@ -14,7 +14,7 @@ func TestSearch(t *testing.T) {
 		results[i].Downloads = 0
 	}
 	assert.Contains(t, results, SearchResult{
-		Title: "MIDV-999.chs.精校版 (translated from zh-CN)",
+		Title: "MIDV-999.chs.精校版 (translated from Chinese)",
 		Path:  "subs/920/MIDV-999.chs.精校版.html",
 	})
 }
